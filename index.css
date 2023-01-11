@@ -1,0 +1,140 @@
+/*primary color: #f8f7f3
+secondary color: #1a24fb*/
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f7f3;
+    font-family: 'Space Grotesk', sans-serif;  
+  }
+  
+  header {
+   width: 100%;
+   height: 40px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;  
+   border-bottom: 1px solid #f8f7f3;
+   padding: 0 10px;
+   font-weight: 400;
+   color: #f8f7f3;
+   font-size: 12px;
+   letter-spacing: 0.2rem;
+   font-family: 'Montserrat', sans-serif;
+   background-color:  #1a24fb;
+  }
+  
+  .cards-container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin: 80px auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px 20px;
+  }
+  
+  .card {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    min-height: 250px;
+    background-color: #f8f7f3;
+    border: 1px solid #1a24fb;
+    padding:20px
+
+
+  }
+  
+  .num-container {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    top: 0;
+    right: -3px;
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1a24fb;
+  }
+  
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 18px;
+    font-size: 14px;
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+    color: #1a24fb;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    bottom: -25px;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #1a24fb;
+  }
+  
+  button:hover {
+      background-color: #1a24fb;
+      color: #f8f7f3;
+      border: 1px solid #f8f7f3;
+    }
+  
+  
+  .material-icons md-36 {
+      padding: 30px;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1a24fb;
+    margin: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f8f7f3;
+  }
+  
+  .sub {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 400px;
+    letter-spacing: 0.2em;
+    color: #1a24fb;
+    margin: 0px 20px;
+  }
+  
+  .text {
+    font-size: 14px;
+    font-weight: 400px;
+    color: #1a24fb;
+    margin: 0px 20px;
+  }
